@@ -1,6 +1,3 @@
-<html>
-
-	<body>
 		<div id="resume" class="col-md-12">
 						    <h1 onclick="show('division_1');" class="title color"><span class="text"> <a href="">Divisions</a></span></h1>
 							<div class="btns">
@@ -578,5 +575,3 @@
 
 							<div class="clear"></div>
 						</div>
-	</body>
-</html>
