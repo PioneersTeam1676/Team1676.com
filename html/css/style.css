@@ -397,7 +397,7 @@ textarea:focus{
 
 .content > div{
 	position: absolute;
-	background: rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255,1);
 	height: 100% !important;
 	padding: 15px;
 	top: 0;
@@ -436,7 +436,7 @@ textarea:focus{
 	display: block;
 	width: 100%;
 	float: left;
-	border-bottom: 1px solid #b1b1b1;
+	border-bottom: 2px solid #b1b1b1;
 	margin-bottom: 15px;
 	font-size: 26px;
 	font-family: 'Lato', sans-serif;
@@ -450,7 +450,7 @@ textarea:focus{
 	float: left;
 	padding-bottom: 3px;
 	padding-right: 15px;
-	margin-bottom: -1px;
+	margin-bottom: -2px;
 }
 
 .content > div .jspPane{
@@ -2031,7 +2031,7 @@ body.theme_1 .color{
 }
 	body.theme_1 .content > div .box .title .text{
 	color: black;
-    font-family: bold;
+    font-family: bold, sans-serif;
 }
 body.theme_1 .content > div .box .personal_details .title .icon{
 	color: black;
@@ -2045,10 +2045,23 @@ body.theme_1 a{
 }
 
 body.theme_1 .btn{
-	background: #222;
+	
+
+}
+body.theme_1 .btn:hover{
+	
+	
+}
+#mattbuttons{
+	background: #a6a6a6;
+	color: #ffcc00;
+	border: 2px solid #a6a6a6;
+}
+#mattbuttons:hover{
+	background:red;
 	color: #fff;
 	opacity: .65;
-
+	border: 2px solid #fc0;
 }
 
 
@@ -2132,13 +2145,15 @@ body.theme_1 .main_menu ul li a.contact:active,
 /*End of MainButtons*/
 
 body.theme_1 .content > div .title .text{ /*Main titles underline with icons*/
-	border-bottom: 1px solid #ffcc00;
+	border-bottom: 2px solid #ffcc00;
+	
+	font-family: 'Lato', sans-serif;
 }
 body.theme_1 .box .title .text{ /*No idea*/
 	border-bottom: 1px solid #ffcc00;
 }
 body.theme_1 .personal_details .title .icon{ /*Person Listings (Bday,address,phone) underline*/
-	border-bottom: 1px solid #ffcc00;
+	border-bottom: 2px solid #ffcc00;
 }
 
 body.theme_1 .content > div .portfolio_grid .mix a > div .inner i{ /*Photos two options colors*/
@@ -2153,13 +2168,13 @@ body.theme_1 .content > div .portfolio_grid .mix a > div .inner i:hover{ /*^^^*/
 body.theme_1 .content > div .box .title .icon{ /*About me (2nd) icons*/
 	color: #ffcc00;
 	background: black;
-	border-bottom: 1px solid #ffcc00;
 	opacity: .9;
+	border-bottom: 2px solid #ffcc00;
 }
 body.theme_1 .content > div .box_title .icon{ /*(3rd) and article icons*/
 	color: white;
 	background: black;
-	border-bottom: 1px solid #ffcc00;
+
 }
 body.theme_1 .content > div .box.awards .award .date{
 	background: black;
