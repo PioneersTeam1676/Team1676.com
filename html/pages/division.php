@@ -8,7 +8,7 @@
 								<a onclick="show('division_3');" href="#" style="width:120px" class="btn read_more_btn"><b>Mechanical</b></a>
 								<a onclick="show('division_4');" href="#" style="width:120px" class="btn read_more_btn"><b>ITRC</b></a>
 								<a onclick="show('division_5');" href="#" style="width:120px" class="btn read_more_btn"><b>Safety</b></a>
-								<a onclick="show('division_6');" href="#" style="width:120px" class="btn read_more_btn"><b>Strategy</b></a>
+								<a onclick="show('division_6');" href="#" style="width:120px" class="btn read_more_btn"><b>Scouting</b></a>
 							</div>
 							<!-- Left Side -->
 							<div class="col-md-8 alpha left_side">
