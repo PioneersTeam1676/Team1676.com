@@ -574,8 +574,8 @@ a.btn{
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	padding: 9px;
-	padding-bottom: 10px;
-	margin-bottom: -1px;
+	padding-bottom: 11px;
+	margin-bottom: -3px;
 }
 
 .box.testimonials .title:after{
@@ -2045,23 +2045,16 @@ body.theme_1 a{
 }
 
 body.theme_1 .btn{
-	
+	background: #a6a6a6;
+	color: white;
+	border: 2px solid #a6a6a6;
 
 }
 body.theme_1 .btn:hover{
+	background:#808080;
+	border: 2px dashed #808080;
+
 	
-	
-}
-#mattbuttons{
-	background: #a6a6a6;
-	color: #ffcc00;
-	border: 2px solid #a6a6a6;
-}
-#mattbuttons:hover{
-	background:red;
-	color: #fff;
-	opacity: .65;
-	border: 2px solid #fc0;
 }
 
 
@@ -2146,11 +2139,12 @@ body.theme_1 .main_menu ul li a.contact:active,
 
 body.theme_1 .content > div .title .text{ /*Main titles underline with icons*/
 	border-bottom: 2px solid #ffcc00;
-	
+	margin-bottom: -2px;
 	font-family: 'Lato', sans-serif;
+	font-weight: 700;
 }
 body.theme_1 .box .title .text{ /*No idea*/
-	border-bottom: 1px solid #ffcc00;
+	border-bottom: 30px solid #ffcc00;
 }
 body.theme_1 .personal_details .title .icon{ /*Person Listings (Bday,address,phone) underline*/
 	border-bottom: 2px solid #ffcc00;
@@ -2170,10 +2164,12 @@ body.theme_1 .content > div .box .title .icon{ /*About me (2nd) icons*/
 	background: black;
 	opacity: .9;
 	border-bottom: 2px solid #ffcc00;
+	margin-bottom: -2px;
 }
 body.theme_1 .content > div .box_title .icon{ /*(3rd) and article icons*/
 	color: white;
 	background: black;
+	border-bottom:  2px solid #fc0;
 
 }
 body.theme_1 .content > div .box.awards .award .date{
