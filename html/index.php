@@ -688,7 +688,7 @@
 
 							<?php
 
-								include 'pages/division.php';
+								include 'pages/divisions.php';
 
 							?>
 
@@ -700,7 +700,7 @@
 
 							<?php
 
-								include 'pages/sponsor.php';
+								include 'pages/sponsors.php';
 
 							?>
 
