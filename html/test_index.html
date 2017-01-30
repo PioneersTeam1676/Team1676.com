@@ -352,13 +352,13 @@
 
 						<!-- Division -->
 						<div id="resume" class="col-md-12">
-						    <h1 onclick="show('division_1');" class="title color"><span class="text"> <a href="">DIVISIONS</a></span></h1>
+						    <h1><span class="text"> <a onclick="showDivisions('division_1'); showDivisionsRight('division_1R');" class="title color" href="#">DIVISIONS</a></span></h1>
 							<div class="btns" id="mattbuttons">
-								<a onclick="showDivisions('division_2');" href="#" style="width:120px" class="btn read_more_btn"><b>Non-Tech</b></a>
-								<a onclick="showDivisions('division_3');" href="#" style="width:120px" class="btn read_more_btn"><b>Mechanical</b></a>
-								<a onclick="showDivisions('division_4');" href="#" style="width:120px" class="btn read_more_btn"><b>ITRC</b></a>
-								<a onclick="showDivisions('division_5');" href="#" style="width:120px" class="btn read_more_btn"><b>Safety</b></a>
-								<a onclick="showDivisions('division_6');" href="#" style="width:120px" class="btn read_more_btn"><b>Scouting</b></a>
+								<a onclick="showDivisions('division_2'); showDivisionsRight('division_2R');" href="#" style="width:120px" class="btn read_more_btn"><b>Non-Tech</b></a>
+								<a onclick="showDivisions('division_3'); showDivisionsRight('division_3R');" href="#" style="width:120px" class="btn read_more_btn"><b>Mechanical</b></a>
+								<a onclick="showDivisions('division_4'); showDivisionsRight('division_4R');" href="#" style="width:120px" class="btn read_more_btn"><b>ITRC</b></a>
+								<a onclick="showDivisions('division_5'); showDivisionsRight('division_5R');" href="#" style="width:120px" class="btn read_more_btn"><b>Safety</b></a>
+								<a onclick="showDivisions('division_6'); showDivisionsRight('division_6R');" href="#" style="width:120px" class="btn read_more_btn"><b>Scouting</b></a>
 							</div>
 							<!-- Left Side -->
 							<div class="col-md-8 alpha left_side">
@@ -869,58 +869,252 @@
 							<!-- /Left Side -->
 
 							<!-- Right Side -->
-							<br>
 							<div class="col-md-4 omega right_side">
-							<!-- NAV -->
-								<div class="categories">
-									<div class="title color"><span class="text">Categories</span></div>
-									<div class="categories">
-										<div class="item">
-											<i class="fa fa-circle"></i>
-											<span onclick="show('sponsor_1');" class="text"><a href="#">Sponsor Us</a></span>
+								<hideMeDivisionsRight class="" id="division_1R">
+										<div class="box testimonials">
+											<div class="title">
+												<!--<div class="icon"><i class="fa fa-users"></i></div>-->
+												<div class="text">yo</div>
+												<div class="clear"></div>
+											</div>
+											<div class="testimonials_btns">
+												<div class="fa fa-caret-left left_btn"></div>
+												<div class="fa fa-caret-right right_btn"></div>
+												<div class="clear"></div>
+											</div>
+											<div class="testimonials cycle-slideshow" data-cycle-slides="div.testimonial">
+												<div class="testimonial current">
+													<div class="text">
+														<img src="pages/division_pics/black.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+												<div class="testimonial">
+													<div class="text">
+														<img src="pages/division_pics/red.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+												<div class="testimonial">
+													<div class="text">
+														<img src="pages/division_pics/blue.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+											</div>
 										</div>
-										<div class="item">
-											<i class="fa fa-circle"></i>
-											<span onclick="show('sponsor_2');" class="text"><a href="#"> Our Sponsors</a></span>
+								</hideMeDivisionsRight>
+
+								<hideMeDivisionsRight class="hidden" id="division_2R">
+										<div class="box testimonials">
+											<div class="title">
+												<!--<div class="icon"><i class="fa fa-users"></i></div>-->
+												<div class="text">1</div>
+												<div class="clear"></div>
+											</div>
+											<div class="testimonials_btns">
+												<div class="fa fa-caret-left left_btn"></div>
+												<div class="fa fa-caret-right right_btn"></div>
+												<div class="clear"></div>
+											</div>
+											<div class="testimonials cycle-slideshow" data-cycle-slides="div.testimonial">
+												<div class="testimonial current">
+													<div class="text">
+														<img src="pages/division_pics/black.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+												<div class="testimonial">
+													<div class="text">
+														<img src="pages/division_pics/red.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+												<div class="testimonial">
+													<div class="text">
+														<img src="pages/division_pics/blue.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+											</div>
 										</div>
-										<div class="clear"></div>
-									</div>
-								</div>
-								<!-- /NAV -->
-								<p><br></p>
-								<!-- Pictu -->
-								<div class="skills">
-									<div class="box_title title">
-										<div class="icon"><i class="fa fa-tag"></i></div>
-										<div class="text">PICTURE</div>
-										<div class="clear"></div>
-									</div>
-									<img src="pics/itrc4.png" style="width: 100%; height: 100%;">
-								</div>
-								<!-- /TEAM SHIRT -->
+								</hideMeDivisionsRight>
 
-								<!-- DONATE NOW! -->
-								<div class="skills">
-									<br><div class="box_title title">
-										<div class="icon"><i class="fa fa-credit-card"></i></div>
-										<div class="text">DONATE NOW! (PayPal)</div>
-										<div class="clear"></div>
-									</div>
-									<img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" style="margin: auto; display: block;";> <!-- Must be linked to paypal account, I cant seem to find out how. -Brian B. -->
-								</div>
-								<!-- /DONATE NOW! -->
+								<hideMeDivisionsRight class="hidden" id="division_3R">
+										<div class="box testimonials">
+											<div class="title">
+												<!--<div class="icon"><i class="fa fa-users"></i></div>-->
+												<div class="text">2</div>
+												<div class="clear"></div>
+											</div>
+											<div class="testimonials_btns">
+												<div class="fa fa-caret-left left_btn"></div>
+												<div class="fa fa-caret-right right_btn"></div>
+												<div class="clear"></div>
+											</div>
+											<div class="testimonials cycle-slideshow" data-cycle-slides="div.testimonial">
+												<div class="testimonial current">
+													<div class="text">
+														<img src="pages/division_pics/black.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+												<div class="testimonial">
+													<div class="text">
+														<img src="pages/division_pics/red.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+												<div class="testimonial">
+													<div class="text">
+														<img src="pages/division_pics/blue.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+											</div>
+										</div>
+								</hideMeDivisionsRight>
 
-								<!-- BROCHURE -->
-								<div class="resume_download lists">
-									<br><br><div class="box_title title">
-										<div class="icon"><i class="fa fa-file-pdf-o"></i></div>
-										<div class="text">BROCHURE</div>
-										<div class="clear"></div>
-									</div>
-									<a href="http://www.team1676.com/archive/v5/images/sponsor.pdf" class="btn"><i class="fa fa-cloud-download"></i><span>Download PDF</span><div class="clear"></div></a>
-								</div>
-								<!-- /BROCHURE -->
+								<hideMeDivisionsRight class="hidden" id="division_4R">
+										<div class="box testimonials">
+											<div class="title">
+												<!--<div class="icon"><i class="fa fa-users"></i></div>-->
+												<div class="text">3</div>
+												<div class="clear"></div>
+											</div>
+											<div class="testimonials_btns">
+												<div class="fa fa-caret-left left_btn"></div>
+												<div class="fa fa-caret-right right_btn"></div>
+												<div class="clear"></div>
+											</div>
+											<div class="testimonials cycle-slideshow" data-cycle-slides="div.testimonial">
+												<div class="testimonial current">
+													<div class="text">
+														<img src="pages/division_pics/black.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+												<div class="testimonial">
+													<div class="text">
+														<img src="pages/division_pics/red.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+												<div class="testimonial">
+													<div class="text">
+														<img src="pages/division_pics/blue.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+											</div>
+										</div>
+								</hideMeDivisionsRight>
 
+								<hideMeDivisionsRight class="hidden" id="division_5R">
+										<div class="box testimonials">
+											<div class="title">
+												<!--<div class="icon"><i class="fa fa-users"></i></div>-->
+												<div class="text">4</div>
+												<div class="clear"></div>
+											</div>
+											<div class="testimonials_btns">
+												<div class="fa fa-caret-left left_btn"></div>
+												<div class="fa fa-caret-right right_btn"></div>
+												<div class="clear"></div>
+											</div>
+											<div class="testimonials cycle-slideshow" data-cycle-slides="div.testimonial">
+												<div class="testimonial current">
+													<div class="text">
+														<img src="pages/division_pics/black.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+												<div class="testimonial">
+													<div class="text">
+														<img src="pages/division_pics/red.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+												<div class="testimonial">
+													<div class="text">
+														<img src="pages/division_pics/blue.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+											</div>
+										</div>
+								</hideMeDivisionsRight>
+
+								<hideMeDivisionsRight class="hidden" id="division_6R">
+										<div class="box testimonials">
+											<div class="title">
+												<!--<div class="icon"><i class="fa fa-users"></i></div>-->
+												<div class="text">5</div>
+												<div class="clear"></div>
+											</div>
+											<div class="testimonials_btns">
+												<div class="fa fa-caret-left left_btn"></div>
+												<div class="fa fa-caret-right right_btn"></div>
+												<div class="clear"></div>
+											</div>
+											<div class="testimonials cycle-slideshow" data-cycle-slides="div.testimonial">
+												<div class="testimonial current">
+													<div class="text">
+														<img src="pages/division_pics/black.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+												<div class="testimonial">
+													<div class="text">
+														<img src="pages/division_pics/red.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+												<div class="testimonial">
+													<div class="text">
+														<img src="pages/division_pics/blue.png" style="width: 100%; height: 100%">
+													</div>
+													<div class="client">
+														&dash; A Client
+													</div>
+												</div>
+											</div>
+										</div>
+								</hideMeDivisionsRight>
 							</div>
 							<!-- /Right Side -->
 
