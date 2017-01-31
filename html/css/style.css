@@ -327,7 +327,47 @@ a:hover{
 .main_slider img{
 	display: block;
 	width: 100%;
-	height: 445px;
+}
+
+.main_slider .btns{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 500;
+}
+
+.main_slider .btns .left_btn,
+.main_slider .btns .right_btn{	
+	display: block;
+	cursor: pointer;
+	font-size: 30px;
+	background: rgba(0, 0, 0, 0.9);
+	color: #ffffff;
+	padding: 14px;
+	text-align: center;
+	opacity: 0.4;
+	margin-top:20%;
+	cursor: pointer;
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.main_slider .btns .left_btn{
+	float: left;
+}
+
+.main_slider .btns .left_btn:hover,
+.main_slider .btns .right_btn:hover{
+	opacity: 1;
+}
+
+.main_slider .btns .right_btn{
+	float: right;
 }
 
 .btn{
