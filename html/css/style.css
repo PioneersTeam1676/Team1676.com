@@ -574,7 +574,7 @@ a.btn{
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	padding: 9px;
-	padding-bottom: 11px;
+	padding-bottom: 12px;
 	margin-bottom: -3px;
 }
 
@@ -1561,7 +1561,7 @@ a.btn{
 }
 
 .sidebar .tabs .tabs_menu a.active{
-	background: rgba(255, 255, 255, 0.8);
+	background: #dedede;
 }
 
 .sidebar .tabs .title:after{
@@ -1580,6 +1580,7 @@ a.btn{
 
 .sidebar .tabs .tabs_body > div.active{
 	display: block;
+	background: #dedede;
 }
 
 .sidebar .tabs .tabs_body .items .item{
@@ -2031,7 +2032,7 @@ body.theme_1 .color{
 }
 	body.theme_1 .content > div .box .title .text{
 	color: black;
-    font-family: bold, sans-serif;
+    font-family: sans-serif;
 }
 body.theme_1 .content > div .box .personal_details .title .icon{
 	color: black;
@@ -2141,7 +2142,7 @@ body.theme_1 .content > div .title .text{ /*Main titles underline with icons*/
 	border-bottom: 2px solid #ffcc00;
 	margin-bottom: -2px;
 	font-family: 'Lato', sans-serif;
-	font-weight: 700;
+	
 }
 body.theme_1 .box .title .text{ /*No idea*/
 	border-bottom: 30px solid #ffcc00;

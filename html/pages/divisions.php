@@ -1,70 +1,68 @@
-		<div id="resume" class="col-md-12">
-						    <h1 onclick="show('division_1');" class="title color"><span class="text"> <a href="">Divisions</a></span></h1>
-							<div class="btns">
-								<a onclick="show('division_2');" href="#" style="width:120px" class="btn read_more_btn"><b>Non-Tech</b></a>
-								<a onclick="show('division_3');" href="#" style="width:120px" class="btn read_more_btn"><b>Mechanical</b></a>
-								<a onclick="show('division_4');" href="#" style="width:120px" class="btn read_more_btn"><b>ITRC</b></a>
-								<a onclick="show('division_5');" href="#" style="width:120px" class="btn read_more_btn"><b>Safety</b></a>
-								<a onclick="show('division_6');" href="#" style="width:120px" class="btn read_more_btn"><b>Strategy</b></a>
+<div id="resume" class="col-md-12">
+						    <h1 onclick="show('division_1');" class="title color"><span class="text"> <a href="">DIVISIONS</a></span></h1>
+							<div class="btns" id="mattbuttons">
+								<a onclick="showDivisions('division_2');" href="#" style="width:120px" class="btn read_more_btn"><b>Non-Tech</b></a>
+								<a onclick="showDivisions('division_3');" href="#" style="width:120px" class="btn read_more_btn"><b>Mechanical</b></a>
+								<a onclick="showDivisions('division_4');" href="#" style="width:120px" class="btn read_more_btn"><b>ITRC</b></a>
+								<a onclick="showDivisions('division_5');" href="#" style="width:120px" class="btn read_more_btn"><b>Safety</b></a>
+								<a onclick="showDivisions('division_6');" href="#" style="width:120px" class="btn read_more_btn"><b>Scouting</b></a>
 							</div>
 							<!-- Left Side -->
 							<div class="col-md-8 alpha left_side">
 
-								<!-- SPONSOR US -->
-								<hideMe class="" id="division_1">
-									<div class="education lists">
-										<div class="box_title title">
-											<div class="icon"><i class="fa fa-user-plus"></i></div>
-											<div class="text">SPONSOR US</div>
-											<div class="clear"></div>
-										</div>
-										<div class="items">
-											<div class="item">
-												<div class="title">How can you Help?</div>
-												<div class="text">
-													Part of the FIRST mission is to create more of a bond with the community by having teams cover their operating budgets by partnering with corporate, as well as private sponsors. The Pascack Pi-oneers need your help! Here are some ways you can support our team:
+								<!-- Divisions-->
+									<hideMeDivisions class="" id="division_1">
+										<div class="education lists">
+											<div class="box_title title">
+												<div class="icon"><i class="fa fa-user-plus"></i></div>
+												<div class="text">Sponsor Us</div>
+												<div class="clear"></div>
+											</div>
+											<div class="items">
+												<div class="item">
+													<div class="title">How can you Help?</div>
+													<div class="text">
+														Part of the FIRST mission is to create more of a bond with the community by having teams cover their operating budgets by partnering with corporate, as well as private sponsors. The Pascack Pi-oneers need your help! Here are some ways you can support our team:
+													</div>
+												</div>
+												<div class="item">
+													<div class="title">Sponsor the Pascack Pi-oneers</div>
+													<div class="text">
+														Choose the level of sponsorship that is right for you. In addition to knowing that you are helping good kids do great things, the Pascack Pi-oneers will show their appreciation in the following ways:
+													</div>
 												</div>
 											</div>
-											<div class="item">
-												<div class="title">Sponsor the Pascack Pi-oneers</div>
-												<div class="text">
-													Choose the level of sponsorship that is right for you. In addition to knowing that you are helping good kids do great things, the Pascack Pi-oneers will show their appreciation in the following ways:
-												</div>
-											</div>
 										</div>
-									</div>
-									<div class="box my_services">
-										<div class="accordion">
-											<div class="item">
-												<div class="item_title">
-													<div class="item_btn">
-														<span class="text">Diamond: $10,000+</span>
-														<span class="arrow"><i class="fa fa-plus-circle"></i></span>
+										<div class="box my_services">
+											<div class="accordion">
+												<div class="item">
+													<div class="item_title">
+														<div class="item_btn">
+															<span class="text">Diamond: $10,000+</span>
+															<span class="arrow"><i class="fa fa-plus-circle"></i></span>
+															<div class="clear"></div>
+														</div>
 														<div class="clear"></div>
+													</div>
+													<div class="item_text">
+														<ul>
+															<li>Private demonstration by team at sponsor location</li>
+															<li>Sponsor’s name/logo given prominent visibility on robot and team uniform</li>
+															<li>Sponsor’s name/logo displayed on our robot</li>
+															<li>Sponsor’s name/logo displayed on team uniform</li>
+															<li>Sponsor’s name/logo displayed on team pit area</li>
+															<li>An official team T-shirt</li>
+															<li>Public recognition on our team’s website that links to your corporate site</li>
+															<li>An official acknowledgement from the team suitable for display</li>
+															<li>Acknowledgement in an end of season ad in the local newspaper</li>
+														</ul>
 													</div>
 													<div class="clear"></div>
 												</div>
-												<div class="item_text">
-													<ul>
-														<li>Private demonstration by team at sponsor location</li>
-														<li>Sponsor’s name/logo given prominent visibility on robot and team uniform</li>
-														<li>Sponsor’s name/logo displayed on our robot</li>
-														<li>Sponsor’s name/logo displayed on team uniform</li>
-														<li>Sponsor’s name/logo displayed on team pit area</li>
-														<li>An official team T-shirt</li>
-														<li>Public recognition on our team’s website that links to your corporate site</li>
-														<li>An official acknowledgement from the team suitable for display</li>
-														<li>Acknowledgement in an end of season ad in the local newspaper</li>
-													</ul>
-												</div>
-												<div class="clear"></div>
 											</div>
 										</div>
-									</div>
-								</hideMe>
-								<!-- /SPONSOR US -->
-
-								<hideMe id="division_2" class="hidden">
+									</hideMeDivisions>
+									<hideMeDivisions id="division_2" class="hidden">
 						                <h2> Non-Tech</h2>
 						                <div class="box my_services">
 							                <div class="accordion">
@@ -186,8 +184,8 @@
 							                    </div>
 							                </div>
 							            </div>
-						            </hideMe>
-						            <hideMe id="division_3" class="hidden">
+						            </hideMeDivisions>
+						            <hideMeDivisions id="division_3" class="hidden">
 						                <h2> Mechanical </h2>
 						                <div class="box my_services">
 							                <div class="accordion">
@@ -294,8 +292,8 @@
 							                    </div>
 							                </div>
 							            </div>
-						            </hideMe>
-						            <hideMe id="division_4" class="hidden">
+						            </hideMeDivisions>
+						            <hideMeDivisions id="division_4" class="hidden">
 						                <h2>Information Technology & Robot Control (ITRC)</h2>
 						                <div class="box my_services">
 							                <div class="accordion">
@@ -364,11 +362,11 @@
 							                    </div>
 							                </div>
 							            </div>
-						            </hideMe>
-						            <hideMe id="division_5" class="hidden">
+						            </hideMeDivisions>
+						            <hideMeDivisions id="division_5" class="hidden">
 						                <h1> Safety </h1>
 						                <h2> 2016 Safety Animation </h2>
-						                <iframe width="560" height="315" src="https://www.youtube.com/embed/n8RkBRXUKwA" frameborder="0" allowfullscreen></iframe>
+						                <iframe width="100%" height="315" src="https://www.youtube.com/embed/n8RkBRXUKwA" frameborder="0" allowfullscreen></iframe>
 						                <p><br></p>
 						                <h2> Safety Sub-Division </h2>
 						                <p>
@@ -506,10 +504,10 @@
 							                    </div>
 							                </div>
 							            </div>
-						            </hideMe>
-						            <hideMe id="division_6"class="hidden">
+						            </hideMeDivisions>
+						            <hideMeDivisions id="division_6"class="hidden">
 						            	<p> uiuiui</p>
-						            </hideMe>
+						            </hideMeDivisions>
 
 							<!-- Descriptions -->
 							<!-- Descriptions -->
@@ -537,14 +535,14 @@
 								</div>
 								<!-- /NAV -->
 								<p><br></p>
-								<!-- TEAM SHIRT -->
+								<!-- Pictu -->
 								<div class="skills">
 									<div class="box_title title">
 										<div class="icon"><i class="fa fa-tag"></i></div>
-										<div class="text">TEAM SHIRT</div>
+										<div class="text">PICTURE</div>
 										<div class="clear"></div>
 									</div>
-									<img src="img/about_1.jpg" style="width: 280px; height: 405px;">
+									<img src="pics/itrc4.png" style="width: 100%; height: 100%;">
 								</div>
 								<!-- /TEAM SHIRT -->
 
@@ -575,3 +573,4 @@
 
 							<div class="clear"></div>
 						</div>
+						<!-- Division -->
