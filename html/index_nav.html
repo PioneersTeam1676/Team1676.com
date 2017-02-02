@@ -33,18 +33,18 @@
 
 <!-- Main Menu -->
 <div class="col-md-1">						
-<nav class="menu"> <!-- Menu -->
- 	<input type="radio" style="display:none" href="www.google.com" name="menu" id="b1_selected"  onclick="check_it (this)" checked="checked" /> <!-- Home -->
- 	<input type="radio" style="display:none" href="www.google.com" name="menu" id="b2_selected" onclick="check_it(this)" /> <!-- Button Two (About Page) -->
- 	<input type="radio" style="display:none" href="www.google.com" name="menu" id="b3_selected" onclick="check_it(this)" /> <!-- Button Three (________ Page) -->
- 	<input type="radio" style="display:none" href="www.google.com" name="menu" id="b4_selected" onclick="check_it(this)" /> <!-- Button Four (________ Page) -->
- 	<input type="radio" style="display:none" href="www.google.com" name="menu" id="b5_selected" onclick="check_it(this)" /> <!-- Button Five (________ Page) -->
- 	<input type="radio" style="display:none" href="www.google.com" name="menu" id="b6_selected" onclick="check_it(this)" /> <!-- Button Six (________ Page) -->
- 	<input type="radio" style="display:none" href="www.google.com" name="menu" id="b7_selected" onclick="check_it(this)" /> <!-- Button Seven (________ Page) -->
- 	<input type="radio" style="display:none" href="www.google.com" name="menu" id="b8_selected" onclick="check_it(this)" /> <!-- Button Eight (________ Page) -->
+<form name="menu"> <nav class="menu"> <!-- Menu -->
+ 	<input type="radio" style="display:none" href="www.google.com" name="menu" id="b1_selected" onClick="uncheckAll(this)" checked="checked" /> <!-- Home -->
+ 	<input type="checkbox" style="display:none" href="www.google.com" name="menu" id="b2_selected" onClick="uncheckAll2(this)"/> <!-- Button Two (About Page) -->
+ 	<input type="radio" style="display:none" href="www.google.com" name="menu" id="b3_selected" onClick="uncheckAll(this)" /> <!-- Button Three (________ Page) -->
+ 	<input type="radio" style="display:none" href="www.google.com" name="menu" id="b4_selected" onClick="uncheckAll(this)" /> <!-- Button Four (________ Page) -->
+ 	<input type="radio" style="display:none" href="www.google.com" name="menu" id="b5_selected" onClick="uncheckAll(this)" /> <!-- Button Five (________ Page) -->
+ 	<input type="radio" style="display:none" href="www.google.com" name="menu" id="b6_selected" onClick="uncheckAll(this)" /> <!-- Button Six (________ Page) -->
+ 	<input type="radio" style="display:none" href="www.google.com" name="menu" id="b7_selected" onClick="uncheckAll(this)" /> <!-- Button Seven (________ Page) -->
+ 	<input type="radio" style="display:none" href="www.google.com" name="menu" id="b8_selected" onClick="uncheckAll(this)" /> <!-- Button Eight (________ Page) -->
  		<label class="menu_button" id="b1" for="b1_selected"> <span class="fa fa-home"></span> </label>
-		<label class="menu_button" id="b2" for="b2_selected"> <span class="fa fa-user"></span> </label>
-			<a href="#" class="menu_button_item item_1"> <i class="fa fa-dashboard"></i> </a> <!-- Button Item One (________ Page) -->
+		<label class="menu_button" id="b2" for="b2_selected"> <span class="#"></span> </label>
+		 	<a href="#" class="menu_button_item item_1"> <i class="fa fa-dashboard"></i> </a> <!-- Button Item One (________ Page) -->
  			<a href="#" class="menu_button_item item_2"> <i class="fa fa-wrench"></i> </a> <!-- Button Item Two (________ Page) -->
   			<a href="#" class="menu_button_item item_3"> <i class="fa fa-graduation-cap"></i> </a> <!-- Button Item Three (________ Page) -->
   			<a href="#" class="menu_button_item item_4"> <i class="fa fa-calendar-check-o"></i> </a> <!-- Button Item Four (________ Page) -->
@@ -60,26 +60,24 @@
  		<label class="menu_button" id="b6" for="b6_selected"> <span class="#"></span> </label>
  		<label class="menu_button" id="b7" for="b7_selected"> <span class="#"></span> </label>	
  		<label class="menu_button" id="b8" for="b8_selected"> <span class="#"></span> </label>
-</nav>
+</nav> </form>
 </div>
 <!-- /Main Menu -->
 
 <script>
 
-function check_it(obj)
-{
-var that = obj;
-   if(document.getElementById(that.id).checked == true) {
-      document.getElementById('b1_selected').checked = false;
-      document.getElementById('b2_selected').checked = false;
-      document.getElementById('b3_selected').checked = false;
-      document.getElementById('b4_selected').checked = false;
-      document.getElementById('b5_selected').checked = false;
-      document.getElementById('b6_selected').checked = false;
-      document.getElementById('b7_selected').checked = false;
-      document.getElementById('b8_selected').checked = false;
-      document.getElementById(that.id).checked = true;
-   }
+function uncheckAll(){
+
+$('input[type="checkbox"]:checked').prop('checked',false);
+
+}
+
+function uncheckAll2(){
+
+$('input[type="radio"]:checked').prop('checked',false);
+
+var bacon = "";
+
 }
 
 </script>
