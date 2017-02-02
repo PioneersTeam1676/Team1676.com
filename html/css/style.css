@@ -327,7 +327,47 @@ a:hover{
 .main_slider img{
 	display: block;
 	width: 100%;
-	height: 445px;
+}
+
+.main_slider .btns{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 500;
+}
+
+.main_slider .btns .left_btn,
+.main_slider .btns .right_btn{	
+	display: block;
+	cursor: pointer;
+	font-size: 30px;
+	background: rgba(0, 0, 0, 0.9);
+	color: #ffffff;
+	padding: 14px;
+	text-align: center;
+	opacity: 0.4;
+	margin-top:20%;
+	cursor: pointer;
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.main_slider .btns .left_btn{
+	float: left;
+}
+
+.main_slider .btns .left_btn:hover,
+.main_slider .btns .right_btn:hover{
+	opacity: 1;
+}
+
+.main_slider .btns .right_btn{
+	float: right;
 }
 
 .btn{
@@ -397,7 +437,7 @@ textarea:focus{
 
 .content > div{
 	position: absolute;
-	background: rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255,1);
 	height: 100% !important;
 	padding: 15px;
 	top: 0;
@@ -436,7 +476,7 @@ textarea:focus{
 	display: block;
 	width: 100%;
 	float: left;
-	border-bottom: 1px solid #b1b1b1;
+	border-bottom: 2px solid #b1b1b1;
 	margin-bottom: 15px;
 	font-size: 26px;
 	font-family: 'Lato', sans-serif;
@@ -450,7 +490,7 @@ textarea:focus{
 	float: left;
 	padding-bottom: 3px;
 	padding-right: 15px;
-	margin-bottom: -1px;
+	margin-bottom: -2px;
 }
 
 .content > div .jspPane{
@@ -574,8 +614,8 @@ a.btn{
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	padding: 9px;
-	padding-bottom: 10px;
-	margin-bottom: -1px;
+	padding-bottom: 12px;
+	margin-bottom: -3px;
 }
 
 .box.testimonials .title:after{
@@ -1561,7 +1601,7 @@ a.btn{
 }
 
 .sidebar .tabs .tabs_menu a.active{
-	background: rgba(255, 255, 255, 0.8);
+	background: #dedede;
 }
 
 .sidebar .tabs .title:after{
@@ -1580,6 +1620,7 @@ a.btn{
 
 .sidebar .tabs .tabs_body > div.active{
 	display: block;
+	background: #dedede;
 }
 
 .sidebar .tabs .tabs_body .items .item{
@@ -2031,7 +2072,7 @@ body.theme_1 .color{
 }
 	body.theme_1 .content > div .box .title .text{
 	color: black;
-    font-family: bold;
+    font-family: sans-serif;
 }
 body.theme_1 .content > div .box .personal_details .title .icon{
 	color: black;
@@ -2045,10 +2086,16 @@ body.theme_1 a{
 }
 
 body.theme_1 .btn{
-	background: #222;
-	color: #fff;
-	opacity: .65;
+	background: #a6a6a6;
+	color: white;
+	border: 2px solid #a6a6a6;
 
+}
+body.theme_1 .btn:hover{
+	background:#808080;
+	border: 2px dashed #808080;
+
+	
 }
 
 
@@ -2132,13 +2179,16 @@ body.theme_1 .main_menu ul li a.contact:active,
 /*End of MainButtons*/
 
 body.theme_1 .content > div .title .text{ /*Main titles underline with icons*/
-	border-bottom: 1px solid #ffcc00;
+	border-bottom: 2px solid #ffcc00;
+	margin-bottom: -2px;
+	font-family: 'Lato', sans-serif;
+	
 }
 body.theme_1 .box .title .text{ /*No idea*/
-	border-bottom: 1px solid #ffcc00;
+	border-bottom: 30px solid #ffcc00;
 }
 body.theme_1 .personal_details .title .icon{ /*Person Listings (Bday,address,phone) underline*/
-	border-bottom: 1px solid #ffcc00;
+	border-bottom: 2px solid #ffcc00;
 }
 
 body.theme_1 .content > div .portfolio_grid .mix a > div .inner i{ /*Photos two options colors*/
@@ -2153,13 +2203,15 @@ body.theme_1 .content > div .portfolio_grid .mix a > div .inner i:hover{ /*^^^*/
 body.theme_1 .content > div .box .title .icon{ /*About me (2nd) icons*/
 	color: #ffcc00;
 	background: black;
-	border-bottom: 1px solid #ffcc00;
 	opacity: .9;
+	border-bottom: 2px solid #ffcc00;
+	margin-bottom: -2px;
 }
 body.theme_1 .content > div .box_title .icon{ /*(3rd) and article icons*/
 	color: white;
 	background: black;
-	border-bottom: 1px solid #ffcc00;
+	border-bottom:  2px solid #fc0;
+
 }
 body.theme_1 .content > div .box.awards .award .date{
 	background: black;
