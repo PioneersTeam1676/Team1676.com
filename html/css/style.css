@@ -2078,26 +2078,33 @@ body.theme_1 .content > div .box_title .text{
 body.theme_1 a{
 	color: black;
 }
-
+/*MATTSBUTTONS*/
 body.theme_1 .btn{
-	background: #a6a6a6;
-	color: white;
-	border: 2px solid #a6a6a6;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgba(255,204,0, .9);
+  background-color: rgba(0,0,0,.85);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px #999;
 
 }
 body.theme_1 .btn:hover{
-	background:#808080;
-	border: 2px dashed #808080;
-
-	
+	background: #333;
 }
 
 
 
 body.theme_1 .btn:active{
+	background-color: #333;
+  	box-shadow: 0 1px #999;
+  	transform: translateY(3px);
 	
-	color: white;
-	
+}
+body.theme_1 .btn.active{
+	color:red;
 }
 /*START MAINBUTTONS*/
 body.theme_1 .main_menu ul li a.home,
@@ -2229,9 +2236,7 @@ body.theme_1 .content > div .box.my_services .accordion .item .item_title .item_
 
 }
 
-body.theme_1 .btn:hover{
-	color: white; 
-}
+
 
 body.theme_1 .content > div .box.my_services .accordion .item .item_title .item_btn{
 	opacity: 0.85;
